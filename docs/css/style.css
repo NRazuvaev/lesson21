@@ -1,0 +1,21 @@
+.greet__text-1 {
+  margin-bottom: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+
+@font-face {
+  font-family: "better-vcr_0";
+  font-weight: 400;
+  font-style: normal;
+  src:  local("better vcr 0"),
+        local("better-vcr_0"),
+        url("../fonts/better-vcr_0.woff2") format('woff2'),
+        url("../fonts/better-vcr_0.woff") format('woff'),
+        url("../fonts/better-vcr_0.eot") format('eot');
+  font-display: swap;
+}
+
+.greet__text-2 {
+  font-family: "better-vcr_0", sans-serif;
+  font-weight: 400;
+}
